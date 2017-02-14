@@ -1,6 +1,7 @@
 <h1><%= @post.title %></h1>
 
 <div><%= @post.body %></div>
+<%= image_tag @post.image_url.to_s, alt: "Image", class: "img-responsive" %>
 
 
 <% if @post.user == current_user %>
