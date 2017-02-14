@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'rails_admin'
 gem 'carrierwave'
-
+gem 'fog'
 
 
 group :development, :test do
